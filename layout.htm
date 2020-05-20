@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>自我介紹</title>
+    <style type="text/css">
+    body{
+        font-size:16px; font-family:"微軟正黑體"
+    }
+    .head{
+        background-color:#003344; color:white; font-weight:bold; font-size:30px;
+        text-align:center; padding:10px;
+    }
+    .content{
+        width:1000px; margin-left:auto; margin-right:auto;
+    }
+    .box{
+        width:280px; padding:10px; margin:10px; background-color:white;
+        display:inline-block; vertical-align:top;/*左右並排;對齊上方*/
+        text-align:center; height:450px; line-height:30px;
+    }
+    .title{font-weight:bold}
+    
+    /*回應式設計*/
+    /*當使用者使用手機使用我的網頁時*/
+    @media screen and (max-width:600px){
+        .head{width:450px;}
+        .content{width:100%; text-align:center;}
+        .box{width:100%}
+        img{width:100%}
+    }
+    </style>
+</head>
+<body style="margin:0px;background-color:#eeeeee; ">
+    <div class="head">5/20 Happy</div>
+    <div class="content">
+        <div class="box">
+            <div class="title">敏敏</div>
+            <div>我是男的</div>
+            <div>喜歡柔柔</div>
+            <div>台灣人</div>
+            <img src="小時候敏敏.jpg" width="200" length="200" ></img>
+        </div>
+        <div class="box">
+            <div class="title">柔柔</div>
+            <div>她是女的</div>
+            <div>喜歡敏敏</div>
+            <div>也是台灣人</div>
+            <img src="柔柔.jpg" width="200" length="200"></img>
+        </div>
+        <div class="box">
+            <div class="title">妮妮</div>
+            <div>一隻貓</div>
+            <div>黃色的</div>
+            <div>可愛的</div>
+            <div>金吉拉</div>
+            <div>也喜歡柔柔</div>
+            <img src="小時候妮妮.jpg" width="200" length="200"></img>
+        </div>
+    </div>
+</body>
+</html>
